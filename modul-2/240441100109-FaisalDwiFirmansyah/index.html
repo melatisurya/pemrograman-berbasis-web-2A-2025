@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+        body {
+            padding-top: 56px;
+        }
+
+        .background-header {
+            background-image: url("images/banner.jpg");
+            background-color: #fafbfc;
+            height: 400px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .button-sekunder {
+            background-color: transparent;
+          border-color: #dbdbdb;
+          color: #5671B6;
+      } 
+  .button-sekunder:hover {
+          background-color: #314B8D;
+          border-color: #dbdbdb;
+          color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+             <a class="navbar-brand" href="#"><img src="images/logo.png" width="135px" height="50px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+            <div class="collapse navbar-collapse" id="navbarContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#menu">Menu</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#pesan">Pesan</a>
+                   </li>
+                </ul>
+           </div>
+      </div>
+    </nav>
+    <header class="jumbotron jumbotron-fluid background-header">
+        <div class="container-fluid text-center">
+            <h1 style="color: aliceblue;" style="font-weight: bold;">Welcome To Mountain Coffee</h1>
+            <p class="lead" style="font-weight: 500; color: aliceblue;">Enjoy Your Coffee and Live our Life to the Fullest</p>
+            <br>
+            <br>
+            <a href="#pesan" class="btn btn-primary btn-m" role="button">Shop Now</a>
+        </div>
+    </header>
+
+    <section id="menu" class="container">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+               <h2 class="display-4 text-center mb-5">Our Menu</h2>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img class="card-img-top" style="max-height: 400px;" src="Images/produk2.jpg" alt="Product 1">
+                <div class="card-body"  style="min-height:250px">
+                  <h4 class="card-tittle">Hot Coffee</h4>
+                  <p class="card-text">Nikmati kehangatan dan aroma khas dari secangkir kopi panas yang diseduh dari biji kopi pilihan berkualitas tinggi. Hot Coffee kami menghadirkan rasa yang kuat, seimbang, dan kaya karakter—sempurna untuk memulai hari atau menemani waktu santai bersama keluarga atau teman.</p>
+                 </div>
+                 <div class="card-footer">
+                    <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+                 </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                  <img class="card-img-top" style="max-height:400px" src="images/produk1.jpg" alt ="Product 2">
+                  <div class="card-body" style="min-height:250px">
+                    <h4 class="card-title">Sukiyaki</h4>
+                     <p class="card-text">Sukiyaki adalah hidangan khas Jepang yang disajikan dalam hot pot berisi irisan daging sapi yang lembut, tahu, jamur, sayuran segar, sukiyaki menawarkan perpaduan cita rasa yang kaya dan lezat, sempurna untuk dinikmati bersama keluarga atau teman.</p>      
+                 </div>
+                 <div class="card-footer">
+                    <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+                  </div>
+                </div>
+            </div>
+            
+           <div class="col-md-4 mb-4">
+             <div class="card">
+               <img class="card-img-top" style="max-height:400px" src="images/produk3.jpg" alt ="Product 3">
+               <div class="card-body" style="min-height:250px">
+                  <h4 class="card-title">Barbeque</h4>
+                  <p class="card-text">Barbeque adalah hidangan daging panggang dengan bumbu khas yang dimasak di atas bara api atau grill. Rasakan cita rasa smokey, gurih, dan juicy dari pilihan daging seperti ayam, sapi, atau seafood. Cocok disantap bersama keluarga atau teman.</p>
+                </div>
+                <div class="card-footer">           
+                  <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+                </div>
+              </div>
+            </div>
+        </div>       
+    </section>
+
+    <section id="about"  class="bg-light" >>
+        <div class="container">
+            <h2 class="display-4 text-center mb-5" style="margin-top: 5rem!important;">About Us</h2>  
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="cover" style="background-image: url('images/banner4.png'); width: 100%; max-width: 500px; aspect-ratio: 1 / 1; background-size: cover; background-position: center;">
+                    </div>
+                  </div>
+                   <div class="col-12 col-md-6">     
+                     <div style="padding: 15px;">
+                       <h3 class="display-5 text-center text-green mt-3 mb-3">Mountain Coffee</h3>
+                       <p style="text-align: justify;">
+                        Mountain Coffee adalah kafe unik yang terletak di lereng gunung dengan suasana sejuk dan pemandangan alam yang memukau. Perpaduan antara keindahan alam dan cita rasa kuliner khas menjadi daya tarik utama tempat ini. Di sini, kamu bisa menikmati hangatnya sukiyaki berkuah gurih, sensasi lezat dari barbeque yang dibakar langsung di meja, serta berbagai pilihan kopi spesialti yang diracik dari biji kopi pilihan lokal. 
+                       </p>
+                       <p style="text-align: justify;">
+                        Dengan konsep semi-outdoor, Mountain Coffee menghadirkan suasana santai nan asri, cocok untuk bersantai bersama keluarga, teman, atau pasangan. Kabut tipis yang menyelimuti area kafe di pagi dan sore hari menambah nuansa magis yang tidak terlupakan.
+                       </p>
+                       <p style="text-align: justify;">
+                        Datanglah dan rasakan sendiri pengalaman menikmati makanan hangat dan kopi nikmat di tengah udara pegunungan yang segar — hanya di Mountain Coffee, tempat di mana alam dan rasa berpadu sempurna.
+                       </p>       
+                     </div>
+                  </div>
+        </div>
+    </section>
+
+    <section id="pesan" class="container-fluid text-center" style="background-color: aliceblue">
+        <h2 class="display-4 pb-4">Hubungi Kami Sekarang!</h2>
+        <p class="lead pb-3">Kirim pesan untuk segala info tentang cafe kami dan terkait untuk pemesanan menu.</p>
+        <a href="#" class="btn button-primer btn-lg mb-4">Klik Disini</a>
+   </section>
+</body>
+</html>
