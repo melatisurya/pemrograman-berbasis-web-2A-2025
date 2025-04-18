@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafeu - Cafe Shop</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="https://cdn-icons-png.flaticon.com/128/3354/3354187.png" width="18%"> Cafeu</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#pesan">Pesan</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Selamat Datang di <span>Cafeu</span></h1>
+        <p>
+          Temukan perpaduan sempurna antara rasa dan kenyamanan di Cafeu. Baik untuk sekadar menikmati kopi cepat atau bersantai di sore hari, kami menjanjikan pengalaman tak terlupakan di setiap tegukan dan gigitan.
+        </p>
+        <a href="#menu" class="button">Jelajahi Menu</a>
+      </div>
+      <div class="hero-img">
+        <img
+          src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+          alt="Kedai Kopi"
+        />
+      </div>
+    </section>
+    
+    <section class="menu-section" id="menu">
+      <div class="menu-text">
+        <h2>Menu Kami</h2>
+        <p>
+          Nikmati pilihan kopi dan camilan yang diracik dengan cinta dan bahan-bahan terbaik untuk menyempurnakan hari Anda.
+        </p>
+      </div>
+      <div class="menu-items">
+        <div class="menu-card">
+          <img src="gambar/foto1.jpg" alt="Espresso" />
+          <h3>Espresso</h3>
+          <p>
+            Espresso yang kaya dan kuat, dibuat dari biji kopi premium yang baru digiling untuk memulai hari Anda dengan energi.
+          </p>
+          <strong>Rp 45.000</strong>
+        </div>
+        <div class="menu-card">
+          <img src="gambar/foto2.png" alt="Cappuccino" />
+          <h3>Cappuccino</h3>
+          <p>
+            Perpaduan sempurna antara espresso, susu kukus, dan busa lembut, cocok untuk momen santai Anda.
+          </p>
+          <strong>Rp 60.000</strong>
+        </div>
+        <div class="menu-card">
+          <img src="gambar/foto3.jpg" alt="Croissant" />
+          <h3>Butter Croissant</h3>
+          <p>
+            Croissant yang renyah dan keemasan, dipanggang segar setiap hari dengan aroma mentega yang menggoda.
+          </p>
+          <strong>Rp 35.000</strong>
+        </div>
+    </section>
+
+    <section class="order-section" id="pesan">
+      <div class="order-container">
+        <h2>Pesan Sekarang</h2>
+        <p>Isi formulir di bawah ini untuk melakukan pemesanan cepat.</p>
+        <form class="order-form" action="#" method="post">
+          <input type="text" name="nama" placeholder="Nama Anda" required />
+          <input type="email" name="email" placeholder="Email Anda" required />
+          <input type="text" name="menu" placeholder="Menu yang dipesan" required />
+          <input type="number" name="jumlah" placeholder="Jumlah" min="1" required />
+          <textarea name="catatan" placeholder="Catatan Tambahan" rows="4"></textarea>
+          <button type="submit">Kirim Pesanan</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <h2>About Us</h2>
+        <p>
+          Cafeu adalah tempat di mana aroma kopi bertemu dengan kenyamanan. Sejak pertama kali dibuka, kami berkomitmen untuk menyajikan kopi berkualitas tinggi dan makanan ringan yang lezat dalam suasana yang hangat dan ramah. 
+        </p>
+        <p>
+          Kami percaya bahwa setiap cangkir kopi punya cerita. Dengan bahan-bahan pilihan dan pelayanan yang tulus, kami ingin menjadi tempat favorit Anda untuk bersantai, bekerja, atau bertemu teman.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">&copy; 2025 Cafeu. All Rights Reserved.</footer>
+  </body>
+</html>
