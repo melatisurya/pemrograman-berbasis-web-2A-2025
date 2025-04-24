@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pemesanan - Toko Roti Lezat</title> 
+    <style>
+       
+        body {
+            font-family: 'Arial', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f8f9fa; 
+        }
+        
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            text-align: center;
+            padding: 20px 0; 
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        nav ul li {
+            display: inline; 
+            margin-right: 15px; 
+        }
+        nav ul li a {
+            text-decoration: none; 
+            color: #333;
+        }
+       
+        section {
+            padding: 20px;
+            text-align: center; 
+            background-color: #fff; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            margin: 20px auto; 
+            max-width: 600px; 
+        }
+       
+        h2 {
+            color: #333; 
+        }
+        
+        form {
+            text-align: left;
+        }
+     
+        label {
+            font-weight: bold; 
+        }
+       
+        input[type="text"],
+        input[type="tel"],
+        textarea {
+            width: calc(100% - 20px);
+            padding: 10px; 
+            margin-bottom: 10px; 
+            border-radius: 5px;
+            border: 1px solid #ccc; 
+            font-size: 16px; 
+            box-sizing: border-box; 
+        }
+       
+        input[type="submit"] {
+            background-color: #ffcc00; 
+            border: none; 
+            padding: 10px; 
+            color: #333; 
+            font-weight: bold; 
+            cursor: pointer; 
+            transition: background-color 0.3s ease; 
+            font-size: 16px;
+            border-radius: 5px; 
+            width: 100%; 
+        }
+       
+        input[type="submit"]:hover {
+            background-color: #e6b800;
+        }
+        
+        footer {
+            background-color: #333; 
+            color: white;
+            text-align: center; 
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 40px; 
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header: Judul dan navigasi utama -->
+    <header>
+        <h1>Toko Roti Lezat</h1> <!-- Nama toko -->
+        <nav>
+            <ul>
+                <!-- Menu navigasi -->
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="pesan.html">Pesan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bagian pemesanan -->
+    <section id="pesan">
+        <h2>Pemesanan Roti Anda!</h2> <!-- Judul section -->
+        <p>Silakan hubungi kami melalui telepon atau kunjungi toko kami untuk melakukan pemesanan.</p> <!-- Informasi singkat -->
+
+        <form action="#" method="post" id="orderForm">
+            <label for="name">Nama:</label><br />
+            <input type="text" id="name" name="name" required /><br />
+
+            <label for="phone">Telepon:</label><br />
+            <input type="tel" id="phone" name="phone" required /><br />
+
+            <label for="order">Pesanan:</label><br />
+            <textarea id="order" name="order" rows="4" required></textarea><br />
+
+            <input type="submit" value="Kirim Pemesanan" />
+        </form>
+    </section>
+
+    <!-- Footer: Hak cipta -->
+    <footer>&copy; 2025 Toko Roti Lezat. Semua hak dilindungi.</footer>
+
+</body>
+</html>
