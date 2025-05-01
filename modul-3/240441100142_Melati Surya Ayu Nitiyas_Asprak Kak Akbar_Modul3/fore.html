@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kopi Fore & Makanan | Landing Page</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    #produk .card-img-top {
+      height: 220px;
+      object-fit: cover;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <i class=""></i> Kopi Fore
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#produk">
+            <i class="fa-solid fa-coffee"></i> Menu
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tentang">
+            <i class="fa-solid fa-info-circle"></i> Tentang
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kontak">
+            <i class="fa-solid fa-envelope"></i> Pesan
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="py-5 text-center bg-dark text-white">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Nikmati Kopi Khas Fore</h1>
+    <p class="lead">Kopi Fore menghadirkan racikan kopi spesial dan makanan homemade untuk hari Anda.</p>
+    <a href="#produk" class="btn btn-warning btn-lg mt-3">Lihat Menu</a>
+  </div>
+</section>
+
+<!-- Produk Section -->
+<section id="produk" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Menu Spesial Kami</h2>
+    <div class="row g-4">
+      <!-- Minuman 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="Aren-Latte.jpg" class="card-img-top" alt="Kopi Aren Latte" />
+          <div class="card-body">
+            <h5 class="card-title">Kopi Aren Latte</h5>
+            <p class="card-text">Espresso dengan susu segar dan gula aren asli, rasa manis alami dan creamy.</p>
+            <span class="badge bg-warning text-dark py-2 px-2 " >Rp 27.000</span>
+          </div>
+        </div>
+      </div>
+      <!-- Minuman 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="Pandan-Latte-min-1.jpg" class="card-img-top" alt="Es Kopi Pandan Latte" />
+          <div class="card-body">
+            <h5 class="card-title">Es Kopi Pandan</h5>
+            <p class="card-text">Kopi susu segar dengan sirup pandan homemade, aroma wangi dan unik.</p>
+            <span class="badge bg-warning text-dark">Rp 28.000</span>
+          </div>
+        </div>
+      </div>
+      <!-- Minuman 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="hazelnut latte.jpg" class="card-img-top" alt="Choco Hazelnut Latte" />
+          <div class="card-body">
+            <h5 class="card-title">Choco Hazelnut Latte</h5>
+            <p class="card-text">Perpaduan kopi, coklat premium, dan hazelnut, creamy dan kaya rasa.</p>
+            <span class="badge bg-warning text-dark">Rp 30.000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-4 mt-2">
+      <!-- Minuman 4 -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="Double Iced Shaken Latte (1).jpg" class="card-img-top" alt="Double Iced Shaken Latte" />
+          <div class="card-body">
+            <h5 class="card-title">Double Iced Shaken Latte</h5>
+            <p class="card-text">Kopi espresso yang dikocok dengan es batu hingga berbusa, memberikan sensasi segar dan rasa kopi yang kuat dengan sentuhan creamy.</p>
+            <span class="badge bg-warning text-dark">Rp 20.000</span>
+          </div>
+        </div>
+      </div>
+      <!-- Minuman 5 -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="Capucino Iced (1).jpg" class="card-img-top" alt="Capucino Iced" />
+          <div class="card-body">
+            <h5 class="card-title">Capucino Iced</h5>
+            <p class="card-text">Minuman kopi dingin dengan perpaduan espresso, susu, dan busa susu yang lembut, cocok untuk penyuka kopi klasik dengan sensasi dingin.</p>
+            <span class="badge bg-warning text-dark">Rp 22.000</span>
+          </div>
+        </div>
+      </div>
+      <!-- Minuman 6 -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="iced-classic-latte.jpg" class="card-img-top" alt="Iced Classic Latte" />
+          <div class="card-body">
+            <h5 class="card-title">Iced Classic Latte</h5>
+            <p class="card-text">Espresso dengan susu dingin yang lembut dan seimbang, memberikan rasa kopi yang kaya namun tetap ringan dan menyegarkan.</p>
+            <span class="badge bg-warning text-dark">Rp 22.000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Minuman 7 -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="vanila o'crumbs.jpg" class="card-img-top" alt="Vanila O'Crumbs" />
+          <div class="card-body">
+            <h5 class="card-title">Vanila O'Crumbs</h5>
+            <p class="card-text">AKopi susu dengan sentuhan vanilla dan taburan remah biskuit renyah, memberikan rasa manis lembut dan tekstur unik.</p>
+            <span class="badge bg-warning text-dark">Rp 22.000</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Minuman 8 -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="Berry Manuka Americano (3).jpg" class="card-img-top" alt="Berry Manuka Americano" />
+          <div class="card-body">
+            <h5 class="card-title">Berry Manuka Americano</h5>
+            <p class="card-text">Americano dengan sentuhan sirup berry dan madu manuka, menghasilkan perpaduan rasa kopi hitam yang segar dan manis alami.</p>
+            <span class="badge bg-warning text-dark">Rp 22.000</span>
+          </div>
+        </div>
+      </div>
+      <!-- Minuman 9 -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <img src="butterscotch.jpg" class="card-img-top" alt="Butterscotch" />
+          <div class="card-body">
+            <h5 class="card-title">Butterscotch</h5>
+            <p class="card-text">Minuman kopi dengan rasa karamel mentega manis yang khas, creamy dan memanjakan lidah, cocok untuk pencinta rasa manis.</p>
+            <span class="badge bg-warning text-dark">Rp 25.000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tentang Section -->
+<section id="tentang" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <img src="foree.png" class="img-fluid rounded shadow" alt="Tentang Kopi Fore" />
+      </div>
+      <div class="col-md-6">
+        <h2>Tentang Kopi Fore</h2>
+        <p>Kopi Fore berdedikasi untuk menyajikan kopi homemade berkualitas dari bahan pilihan. Kami percaya, momen terbaik dimulai dari secangkir kopi spesial dan sajian fresh setiap hari.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Kontak Section -->
+<section id="kontak" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Pesan Sekarang</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="pesan" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning w-100">Kirim</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-3 bg-dark text-white text-center">
+  <div class="container">
+    <small>&copy; 2025 Kopi Fore. All rights reserved.</small>
+  </div>
+</footer>
+
+<!-- Bootstrap JS Bundle CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

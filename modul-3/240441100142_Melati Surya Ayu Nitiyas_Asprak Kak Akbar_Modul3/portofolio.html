@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Melati Surya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Melati Surya</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#about" class="hover:text-blue-600 transition">About</a>
+        <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+        <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="container mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-4xl font-extrabold mb-6">Halo, saya Melati Surya</h2>
+      <p class="text-lg mb-8 leading-relaxed">
+        Saya adalah mahasiswa semester 2 jurusan Sistem Informasi di Universitas Trunojoyo Madura. Saat ini saya fokus belajar teknologi informasi untuk mendukung kebutuhan bisnis dan organisasi. Saya bersemangat mengembangkan kemampuan dan aktif mengikuti kegiatan kampus untuk menunjang ilmu dan pengalaman.
+      </p>
+      <a href="#contact" class="inline-block bg-blue-600 text-white px-8 py-3 rounded hover:bg-blue-700 transition">Hubungi Saya</a>
+    </div>
+    <div class="flex justify-center">
+      <img src="Pas foto unv.jpg" alt="Foto Profil Melati Surya" class="w-1/2 h-auto object-contain" alt="Foto responsif" />
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="bg-white py-12">
+    <div class="container mx-auto px-6 max-w-4xl">
+      <h3 class="text-2xl font-semibold mb-6 text-center">Tentang Saya</h3>
+      <p class="text-gray-700 leading-relaxed text-center">
+        Saya sebelumnya menempuh pendidikan di bidang kesehatan farmasi, di mana saya belajar tentang obat-obatan, cara meracik obat, serta manajemen kefarmasian. Bidang ini sangat terkait dengan pengelolaan obat dan pelayanan kesehatan yang membutuhkan ketelitian dan pengetahuan mendalam. Saat ini, saya melanjutkan studi di jurusan Sistem Informasi dengan tujuan mengintegrasikan keahlian farmasi saya dengan teknologi informasi. Hal ini memungkinkan saya untuk memahami dan mengembangkan sistem informasi farmasi seperti sistem informasi apotek dan instalasi farmasi yang membantu meningkatkan efisiensi, keamanan, dan kualitas pelayanan kesehatan melalui pemanfaatan teknologi komputer dan komunikasi. Dengan latar belakang ini, saya berharap dapat berkontribusi dalam pengembangan solusi teknologi yang mendukung bidang kesehatan dan farmasi secara lebih modern dan efektif.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-white py-12">
+    <div class="container mx-auto px-6 max-w-5xl">
+      <h3 class="text-2xl font-semibold mb-10 text-center">Keahlian</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-gray-100 rounded-lg shadow p-6 flex flex-col items-center text-center">
+          <img src="obat.jpg" alt="Keahlian di bidang kesehatan" class="mx-auto" alt="Foto di tengah" />
+          <h4 class="font-semibold mb-2 text-lg">Di Bidang Kesehatan</h4>
+          <p class="text-gray-600 text-sm">Meracik Obat dengan teliti dan sesuai standar.</p>
+        </div>
+        <div class="bg-gray-100 rounded-lg shadow p-6 flex flex-col items-center text-center">
+          <img src="msk.jpg" alt="Keahlian memasak" class="mx-auto" alt="Foto di tengah" />
+          <h4 class="font-semibold mb-2 text-lg">Memasak</h4>
+          <p class="text-gray-600 text-sm">Menguasai berbagai teknik memasak dan resep lezat.</p>
+        </div>
+        <div class="bg-gray-100 rounded-lg shadow p-6 flex flex-col items-center text-center">
+          <img src="ICED COD.jpg" alt="Keahlian memasak" class="mx-auto" alt="Foto di tengah" />
+          <h4 class="font-semibold mb-2 text-lg">Memasak</h4>
+          <p class="text-gray-600 text-sm">Menguasai berbagai teknik memasak dan resep lezat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container mx-auto px-6 py-12 max-w-3xl">
+    <h3 class="text-2xl font-semibold mb-8 text-center">Hubungi Saya</h3>
+    <form class="bg-white p-8 rounded-lg shadow space-y-6" action="#" method="POST">
+      <div>
+        <label for="name" class="block mb-2 font-medium">Nama</label>
+        <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Nama Anda" required />
+      </div>
+      <div>
+        <label for="email" class="block mb-2 font-medium">Email</label>
+        <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="melatisurya6@gmail.com" required />
+      </div>
+      <div>
+        <label for="message" class="block mb-2 font-medium">Pesan</label>
+        <textarea id="message" name="message" rows="5" class="w-full border border-gray-300 rounded px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tulis pesan Anda..." required></textarea>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white px-8 py-3 rounded hover:bg-blue-700 transition w-full font-semibold">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 py-6 text-center text-gray-600 text-sm">
+    &copy; 2025 Melati Surya. Semua hak cipta dilindungi.
+  </footer>
+
+</body>
+</html>
