@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <style>
+        table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+body {
+    background-image: url("gambar/wahyu.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.container {
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+.navbar {
+    max-width: 800px;
+    background: rgb(219, 219, 219);
+    padding: 10px;
+    margin: auto;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+        <a href="profil.html">Home</a> |
+        <a href="pengalaman.html">Pengalaman</a> |
+        <a href="blog.html">Blog</a>
+        </div>
+        <center>
+        <h2>PROFIL PRIBADI</h2>
+        </center>
+        <table border="1">
+            <tr>
+                <td>Nama</td>
+                <td>Wahyu Hidayatullah</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>Pamekasan</td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td>Pamekasan. 30 Agust 2005</td>
+            </tr>
+            <tr>
+                <td>Nomor Telepon</td>
+                <td>08979310273</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>wahyuhidayatullah2024@gmail.com</td>
+            </tr>
+        </table><hr>
+        <center>
+            <h2>RIWAYAT PENDIDIKAN</h2>
+        </center>
+        <ul>
+            <li>
+                SDN TAMBERU 2 (2012)
+            </li>
+            <li>
+                SMPN 1 BATUMARMAR (2019)
+            </li>
+            <li>
+                SMAN 1 WARU PAMEKASAN (2021)
+            </li>
+            <li>
+                UNIVERSITAS TRUNOJOYO MADURA (2024)
+            </li>
+        </ul><hr>
+        <center>
+            <h2>HOBY DAN MINAT</h2>
+        </center>
+        <table border="1">
+            <tr>
+                <td>HOBY</td>
+                <td>MINAT</td>
+            </tr>
+            <tr>
+                <td>Mancing</td>
+                <td>Matematika</td>
+            </tr>
+            <tr>
+                <td>Membaca Komik</td>
+                <td>Information Technology</td>
+            </tr>
+            <tr>
+                <td>Bermain Game</td>
+                <td>Bahasa Inggris</td>
+            </tr>
+        </table><hr>
+        <center>
+            <h2>PENGALAMAN</h2>
+        </center>
+        <ul>
+            <li>Organisasi: Ikatan Mahasiswa Pemakasan</li>
+            <li>Projeck: Sistem Kerja di Rumah sakit</li>
+            <li>Lomba: Matematika Tingkat Kabupaten</li>
+        </ul><hr>
+        <div class="justify">
+            <h2>KESAN DAN HARAPAN</h2>
+            <p>Pertama kali masuk universitas, saya merasa sangat bersemangat dan juga sedikit gugup. Lingkungan baru, teman-teman baru, serta sistem belajar yang berbeda dari sekolah membuat saya harus cepat beradaptasi.</p>
+            <p>Saya memiliki cita-cita untuk menjadi seorang engenering, karena saya tertarik dengan bidang Information Technology. Saya ingin terus belajar dan mengembangkan keterampilan saya agar bisa memberikan kontribusi bagi masyarakat.</p>
+            <p>Harapan saya di masa depan adalah menyelesaikan studi dengan baik, mendapatkan pengalaman berharga di dunia kerja, serta terus mengasah keterampilan dan pengetahuan saya agar menjadi pribadi yang lebih baik.</p><hr>
+        </div>
+        <form>
+            <label>Bahasa Pemograman</label>
+            <input type="text" id="Bahasa_Pemograman" name="Bahasa_Pemograman" placeholder="Bahasa yang Dikuasai" required><br><br>
+            <label">Bahasa Asing</label>
+            <input type="text" id="Bahasa_Asing" name="Bahasa_Asing" placeholder="Bahasa Asing yang Dikuasiai" required><br>
+            <p>Perangkat Lunak yang Sering Digunakan:</p>
+            <input type="checkbox" id="Lightroom" name="software" value="Lightroom">
+            <label for="Lightroom">Lightroom</label><br>
+            <input type="checkbox" id="vs_code" name="software" value="VS Code">
+            <label for="vs_code">Visual Studio Code</label><br>
+            <input type="checkbox" id="TikTok" name="software" value="Tiktok">
+            <label for="TikTok">Tiktok</label>
+            <p>Sistem Operasi yang Biasa Digunakan:</p>
+            <input type="radio" id="windows" name="os" value="Windows">
+            <label for="windows">Windows</label><br>
+            <input type="radio" id="macos" name="os" value="MacOS">
+            <label for="macos">MacOS</label><br>
+            <input type="radio" id="linux" name="os" value="Linux">
+            <label for="linux">Linux</label><br><br>
+            <button type="submit">Kirim</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
