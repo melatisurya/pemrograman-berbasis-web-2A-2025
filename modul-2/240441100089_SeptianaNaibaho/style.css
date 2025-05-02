@@ -1,0 +1,133 @@
+body {
+  background-image: url('background-roti.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #4e342e;
+}
+header {
+  background: #d7ccc8;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #4e342e;
+  font-weight: bold;
+}
+.showcase {
+  background: rgba(239, 235, 233, 0.85);
+  padding: 60px 40px;
+  text-align: center;
+}
+.showcase h1 {
+  font-size: 36px;
+  color: #6b3e26;
+  margin-bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.showcase p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+.showcase button {
+  padding: 12px 20px;
+  margin: 5px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-order {
+  background-color: #6d4c41;
+  color: white;
+}
+.btn-explore {
+  background-color: white;
+  border: 2px solid #6d4c41;
+  color: #6d4c41;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+  background: rgba(251, 233, 231, 0.85);
+}
+
+.menu-item {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff3e0;
+  border: 1px solid #d7ccc8;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  margin: 10px 0 5px;
+  color: #5d4037;
+}
+
+.menu-item p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.menu-item .price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menu-item button {
+  background-color: #6d4c41;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.features {
+  background: rgba(239, 235, 233, 0.9);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 30px;
+  color: #3e2723;
+}
+
+.feature-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 200px;
+}
+
+.feature h4 {
+  margin: 10px 0;
+  color: #5d4037;
+}
