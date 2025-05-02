@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #F0FFFF;
+            font-family: cursive;
+        }
+        
+        .navbar {
+            color: rgb(2, 23, 23);
+            background-color: rgb(32, 25, 25);
+            padding: 30px;
+        }
+        
+        .footer a {
+            color: aqua;
+            padding: 5px;
+            text-decoration: none;
+            margin: 15px;
+            transition: 0.5s;
+        }
+        
+        .footer a:hover {
+            border-radius: 20px;
+            color: white;
+            padding: 15px;
+            background-color: #4169E1;
+        }
+        
+        fieldset {
+            border-radius: 10px;
+            padding: 20px;
+            margin: auto;
+            width: 80%;
+            text-align: left;
+        }
+        
+        table {
+            width: 80%;
+            text-align: center;
+        }
+        
+        table th, table td {
+            padding: 10px;
+        }
+        
+        table thead tr {
+            background-color: #f2f2f2;
+        }
+        
+        .hobby-list {
+            text-align: center;
+            width: 80%;
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .hobby-list li {
+            padding: 5px;
+        }
+        
+        .pengalaman, .kesan {
+            text-align: left;
+            width: 80%;
+            
+        }
+        
+        input[type="text"] {
+            width: 98%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="footer">
+           <a href="halaman2.html">Pengalaman Kuliah</a>
+           <a href="halaman3.html">Blog atau Catatan Pribadi</a>
+        </div>
+    </nav>
+    <center>
+        <h1>Profil Saya</h1>
+        <table border="1" class="table">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Alamat</th>
+                    <th>Tempat, Tanggal Lahir</th>
+                    <th>Nomor HP</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mohammad Yoga Saputra</td>
+                    <td>DSN Kedaton RT/RW 03/10 Desa Lerankulon Kecamatan Palang</td>
+                    <td>Tuban, 11-10-2005</td>
+                    <td>089687019869</td>
+                    <td>yogawoy550@gmial.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Riwayat Pendidikan</h2>
+        <table border="1" class="table">
+            <thead>
+                <tr>
+                    <th>Jenjang</th>
+                    <th>Nama Institusi</th>
+                    <th>Tahun Masuk</th>
+                    <th>Tahun Lulus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MI</td>
+                    <td>Mi Salafiya</td>
+                    <td>2012</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>MTS</td>
+                    <td>MTS al-Asyhar</td>
+                    <td>2018</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>SMK</td>
+                    <td>SMKN Palang</td>
+                    <td>2021</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Universitas</td>
+                    <td>Universitas Trunojoyo Madura</td>
+                    <td>2024</td>
+                    <td>Belum Pasti</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Hobi</h2>
+        <ul class="hobby-list">
+            <li>Bermain Game</li>
+            <li>Menonton Film</li>
+            <li>Mendengarkan Musik</li>
+        </ul>
+        <h2>Pengalaman Akademik dan Non-Akademik</h2>
+        <p class="pengalaman">
+            Selama masa sekolah, saya orangnya kurang bergaul pada lingkungan sekitar sebab itu saya kurang mempunyai teman yang banyak. Namun, saya aktif dalam kegiatan belajar mengajar di sekolah. Saya sangat menyukai pelajaran tentang percodingan seperti PBO, PBW, dan Basisdata karena saya merasa sangat tertarik dengan pelajaran tersebut.
+        </p>
+        <h2>Kesan Pertama Masuk Universitas, Cita-Cita, dan Harapan Masa Depan</h2>
+        <p class="kesan">
+            Kesan pertama saya saat masuk universitas adalah perasaan campur aduk antara gugup dan antusias. Lingkungan baru, teman-teman baru, dan sistem pembelajaran yang berbeda membuat saya merasa tertantang untuk beradaptasi.
+        </p>
+    </center>
+        <fieldset>
+            <legend>Form Input</legend>
+            <form>
+                <label for="bahasaPemrograman">Bahasa Pemrograman yang Dikuasai</label>
+                <input type="text" name="bahasaPemrograman" id="bahasaPemrograman" placeholder="Contoh: Python, JavaScript">
+        
+                <label for="bahasaAsing">Bahasa Asing yang Bisa Digunakan</label>
+                <input type="text" name="bahasaAsing" id="bahasaAsing" placeholder="Contoh: Inggris, Jepang">
+        
+                <label>Perangkat Lunak yang Sering Digunakan</label><br>
+                <input type="checkbox" name="software" value="Microsoft Office"> Microsoft Office<br>
+                <input type="checkbox" name="software" value="Visual Studio Code"> Visual Studio Code<br>
+                <input type="checkbox" name="software" value="Adobe Photoshop"> Adobe Photoshop<br>
+                <input type="checkbox" name="software" value="Figma"> Figma<br>
+                <input type="checkbox" name="software" value="Other"> Lainnya<br><br>
+        
+                <label for="os">Sistem Operasi yang Biasa Digunakan</label><br>
+                <input type="radio" name="os" value="Windows" id="os"> Windows<br>
+                <input type="radio" name="os" value="MacOS"> MacOS<br>
+                <input type="radio" name="os" value="Linux"> Linux<br>
+                <input type="radio" name="os" value="Other"> Lainnya<br><br>
+        
+                <input type="submit" value="Kirim">
+            </form>
+        </fieldset>
+</body>
+</html>
