@@ -1,0 +1,172 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body{
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: orangered;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar .navbar-logo{
+    font-size: 26px;
+    font-weight: bolder;
+    color: white;
+    padding: 16px 7%;
+}
+
+.navbar .navbar-nav a{
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/736x/08/76/2b/08762bdf900ab4909bd3262afbf4edc5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero .content{
+    padding: 16px 7%;
+    max-width: 960px;
+}
+
+.hero .content h1{
+    font-size: 80px;
+    color: white;
+}
+
+.hero .content p{
+    font-size: 20px;
+    color: white;
+}
+
+.about,
+.menu,
+.contact{
+    padding: 120px 7%;
+}
+
+.about h2,
+.menu h2,
+.contact h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.about .row{
+    display: flex;
+}
+
+.about .row .about-img{
+    flex: 1 1 150px;
+}
+
+.about .row .about-img img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 100px;
+    padding: 1px 20px;
+}
+
+.about .row .content h3{
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.about .row .content p{
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.menu h2{
+    margin-bottom: 16px;
+}
+
+.menu p{
+    text-align: center;
+    max-width: 480px;
+    margin: auto;
+    font-size: 16px;
+}
+
+.menu .row{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.menu .row .menu-card{
+    text-align: center;
+}
+
+.menu .row .menu-card img{
+    border-radius: 50px;
+    width: 80%;
+}
+
+.menu .row .menu-card .menu-card-title{
+    margin: 16px
+}
+
+.contact .row{
+    display: flex;
+    background-color: aliceblue;
+}
+
+.contact .row .map{
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: #eef6ff;
+    padding: 30px;
+    border-radius: 10px;
+}
+  
+.form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+  
+.form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}

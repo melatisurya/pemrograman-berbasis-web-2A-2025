@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Adytta</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<style>
+  .card-img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+  }
+</style>
+
+<body class="bg-gray-950 text-white font-sans">
+  <nav class="bg-gray-900 p-5 shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold text-white">Adytta Tarigan</h1>
+      <ul class="flex space-x-6 text-sm">
+        <li><a href="#home" class="hover:text-blue-400">Beranda</a></li>
+        <li><a href="#about" class="hover:text-blue-400">Tentang</a></li>
+        <li><a href="#skills" class="hover:text-blue-400">Skill</a></li>
+        <li><a href="#projects" class="hover:text-blue-400">Pendidikan</a></li>
+        <li><a href="#contact" class="hover:text-blue-400">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <img src="https://i.pinimg.com/736x/9b/e3/5a/9be35a116088836854ac72de3198cd2b.jpg" class="w-[200px] h-[200px] rounded-full">
+    <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Halo, gue Adytta 👋</h2>
+    <p class="text-gray-400 text-lg max-w-xl">Mahasiswa dan calon programmer. Suka ngulik teknologi web, terutama frontend development!</p>
+  </section>
+
+  <section id="about" class="py-20 bg-gray-900">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h3 class="text-3xl font-bold mb-4">Tentang Gue</h3>
+      <p class="text-gray-400 text-base leading-relaxed">
+        Gue seorang mahasiswa yang sedang belajar frontend development. Mulai dari HTML, CSS, Tailwind, hingga JavaScript.
+        Fokus gue adalah membangun website yang keren, cepat, dan mobile-friendly.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Bakat dan Hobi</h3>
+      <div class="grid md:grid-cols-3 gap-6 text-center">
+        <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">Bermain gitar</h4>
+          <p class="text-gray-400">Gue suka main gitar sebagai cara buat relaks, explore lagu rohani, dan belajar chord baru.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">Ngoding</h4>
+          <p class="text-gray-400">Ngulik HTML, CSS, dan JavaScript itu bikin gue semangat! Suka tantangan logika dan bikin sesuatu dari nol.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">Ngegame</h4>
+          <p class="text-gray-400">Main game buat hiburan dan kadang belajar teamwork & strategi. Genre favorit: FPS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Riwayat Pendidikan</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-5 rounded-lg shadow hover:shadow-xl transition">
+          <img src="https://smpn272jakarta.sch.id/media_library/image_sliders/6bae5b68e49fd19b905fa46d134f4423.jpg" class="card-img">
+          <h4 class="text-xl font-bold mb-2">SMPN 272 JAKARTA</h4>
+          <p class="text-gray-400 mb-2">Bersekolah di SMPN 272 JAKARTA tahun 2021 - 2024.</p>
+        </div>
+        <div class="bg-gray-800 p-5 rounded-lg shadow hover:shadow-xl transition">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkXuHwkaCKZjTIIrncz7QycGoZWEPC-yYPxA&s" class="card-img">
+          <h4 class="text-xl font-bold mb-2">SMAS PGRI 24 JAKARTA</h4>
+          <p class="text-gray-400 mb-2">Bersekolah di sma pgri 24 dengan jurusan ilmu pengetahuan sosial.</p>
+        </div>
+        <div class="bg-gray-800 p-5 rounded-lg shadow hover:shadow-xl transition">
+          <img src="https://astrisrirohmawati.wordpress.com/wp-content/uploads/2015/03/trunojoyo-rektorat21.jpg?w=640" class="card-img">
+          <h4 class="text-xl font-bold mb-2">Universitas Trunojoyo Madura</h4>
+          <p class="text-gray-400 mb-2">Mahasiswa UTM semester 2 yang sedang menempuh jurusan sistem informasi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-20">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h3 class="text-3xl font-bold mb-4">Kontak Gue</h3>
+      <p class="text-gray-400">Punya pertanyaan atau mau kolaborasi? Kirim aja email ke:</p>
+      <p class="mt-2 text-blue-400">tariganadytta27@gmail.com</p>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 py-6">
+    <div class="text-center text-gray-500 text-sm">
+      &copy; 2025 Adytta Putra Tarigan. Dibuat dengan ❤️ dan Tailwind CSS.
+    </div>
+  </footer>
+
+</body>
+</html>
