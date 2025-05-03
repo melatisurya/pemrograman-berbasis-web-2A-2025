@@ -1,0 +1,48 @@
+p {
+    color: azure;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 10px auto;
+    font-family: 'Playfair Display', serif;
+}
+h1 {
+    color: azure;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+h2{
+    color: azure;
+    font-size: 150%;
+    font-family: 'Playfair Display', serif;
+}
+h3{
+    color: azure;
+    font-size: 100%;
+    font-family: 'Playfair Display', serif;
+}
+a{
+    color: azure;
+    font-family: 'Playfair Display', serif;
+}
+a:hover{
+    color: rgb(223, 164, 63);
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(L2M-ID-2309-PAGISORE-2.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(0.5);
+  }
+ol{
+    color: azure; 
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-position: inside;
+}
