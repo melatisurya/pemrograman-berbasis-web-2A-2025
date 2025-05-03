@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Menu - Toko Roti Lezat</title> 
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0; 
+            background-color: #f8f9fa; 
+        }
+        
+        header {
+            background-color: #ffcc00;
+            color: #333; 
+            text-align: center;
+            padding: 20px 0; 
+        }
+        
+        nav ul {
+            list-style-type: none; 
+            padding-left: 0;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px; 
+        }
+        nav ul li a {
+            text-decoration: none; 
+            color: #333; 
+        }
+       
+        section {
+            padding: 20px; 
+            text-align: center; 
+        }
+       
+        h2 {
+            color: #333; 
+        }
+       
+        section > div {
+            background-color: #fff; 
+            border-radius: 10px; 
+            padding: 15px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+            transition: transform 0.3s;
+            max-width: 320px; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+       
+        section > div:hover {
+            transform: scale(1.05); 
+        }
+        
+        section > div > img {
+            width: 100%; 
+            max-width: 300px; 
+            border-radius: 10px; 
+        }
+       
+        section > div > a {
+            background-color: #f9c74f; 
+            color: #333; 
+            padding: 10px 18px;
+            border: none; 
+            border-radius: 12px; 
+            font-size: 16px;
+            font-weight: bold; 
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex; 
+            align-items: center; 
+            justify-content: center;
+            margin-top: 10px; 
+        }
+       
+        section > div > a:hover {
+            background-color: #e0b93a; 
+        }
+      
+        section > div > a > i {
+            margin-right: 8px; 
+        }
+       
+        footer {
+            background-color: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 10px 0; 
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header: Judul dan navigasi -->
+    <header>
+        <h1>Toko Roti Lezat</h1> <!-- Nama toko -->
+        <nav>
+            <ul>
+                <!-- Menu navigasi -->
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="pesan.html">Pesan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bagian menu roti -->
+    <section id="menu">
+        <h2>Menu Roti Kami</h2> 
+
+        <div>
+            <img src="roti tawar.jpg" alt="Roti Tawar" />
+            <h3>Roti Tawar</h3> 
+            <p>Harga: Rp 15.000</p>
+            <p>Roti tawar lembut yang cocok untuk sarapan.</p>
+            <a href="pesan.html">
+                Beli 
+            </a>
+        </div>
+
+        <div>
+            <img src="roti coklat.jpg" alt="Roti Coklat" />
+            <h3>Roti Coklat</h3>
+            <p>Harga: Rp 20.000</p>
+            <p>Roti manis dengan isian coklat yang melimpah.</p>
+            <a href="pesan.html">
+                Beli
+            </a>
+        </div>
+
+        <!-- Item menu Cookies -->
+        <div>
+            <img src="img/kue1.jpg" alt="Cookies" />
+            <h3>Cookies</h3>
+            <p>Harga: Rp 23.000</p>
+            <p>Cookies adalah makanan panggang kecil yang biasanya berbentuk datar dan manis, terbuat dari bahan dasar tepung, gula, telur, dan lemak seperti mentega atau minyak. Cookies dapat mengandung tambahan seperti kismis, oat, kepingan cokelat, atau kacang-kacangan untuk variasi rasa dan tekstur.</p>
+            <a href="pesan.html">
+                 Beli
+            </a>
+        </div>
+
+        <!-- Item menu Donat -->
+        <div>
+            <img src="img/kue2.jpg" alt="Donat" />
+            <h3>Donat</h3>
+            <p>Harga: Rp 14.000</p>
+            <p>Donat memiliki tekstur lembut dan rasa manis, sering dihias dengan taburan gula halus, meses, atau dilengkapi isian manis seperti selai, krim, cokelat, dan custard</p>
+            <a href="pesan.html">
+                 Beli
+            </a>
+        </div>
+
+        <!-- Item menu Baguet -->
+        <div>
+            <img src="img/kue3.jpg" alt="kue3" />
+            <h3>Baguet</h3>
+            <p>Harga: Rp 20.000</p>
+            <p>Roti baguette adalah roti khas Perancis yang memiliki bentuk panjang dan tipis dengan tekstur luar yang renyah serta bagian dalam yang lembut.</p>
+            <a href="pesan.html">
+                 Beli
+            </a>
+        </div>
+
+        <!-- Item menu Pancake -->
+        <div>
+            <img src="img/kue4.jpg" alt="Pancake" />
+            <h3>Pancake</h3>
+            <p>Harga: Rp 25.000</p>
+            <p>Teksturnya yang empuk dan rasanya yang manis membuat pancake cocok dinikmati oleh segala usia.</p>
+            <a href="pesan.html">
+                 Beli
+            </a>
+        </div>
+
+        <!-- Item menu Croissant -->
+        <div>
+            <img src="img/kue5.jpg" alt="kue5" />
+            <h3>Croissant</h3>
+            <p>Harga: Rp 30.000</p>
+            <p>Roti panggang dengan tekstur yang renyah </p>
+            <a href="pesan.html">
+                 Beli
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Footer: Hak cipta -->
+    <footer>&copy; 2025 Toko Roti Lezat. Semua hak dilindungi.</footer>
+
+</body>
+</html>
