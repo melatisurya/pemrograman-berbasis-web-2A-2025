@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page Blue Moon</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body{
+            background: linear-gradient(135deg, #2865aa, #2d4c66, #868697);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="text-sky-100 font-sans">
+    <header class="sticky top-0 z-50 backdrop-blur-md">
+        <div class="flex justify-between items-center p-6">
+            <div class="flex items-center space-x-2">
+                <img src="logo (1).png" alt="Logo Cafe" class="h-10 w-10">
+                <h1 class="text-2xl font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent">Blue Moon Cafe</h1>
+            </div>
+            <nav class="space-x-6">
+                <a href="#home" class="hover:text-blue-400 transition">Home</a>
+                <a href="#about" class=" hover:text-blue-400 transition">About</a>
+                <a href="#promo" class=" hover:text-blue-400 transition">Promo</a>
+                <a href="#menu" class="hover:text-blue-400 transition">Menu</a>
+                <a href="#order" class="hover:text-blue-400 transition">Pesan</a>
+                <a href="#testimoni" class=" hover:text-blue-400 transition">Testimoni</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="home" class="scroll-mt-50 p-50 bg-cover bg-center" style="background-image: url('https://www.brittany.com.ph/wp-content/uploads/2022/11/About-Coffee-Shop-in-the-City-of-Davao-1024x683.jpg');">
+        <h2 class="text-white text-6xl font-bold">Selamat Datang di <br><span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon Cafe </span></h2>
+        <p class="text-white text-lg p-6">Kopi, rasa, dan suasana di bawah cahaya bulan biru</p>
+        <a href="#order" class="px-8 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">Order Sekarang</a>
+    </section>
+
+
+    <section id="about" class="scroll-mt-50 text-center">
+        <h2 class="text-white text-5xl font-bold drop-shadow-lg mb-10 mt-50">Tentang <span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon Cafe </span></h2>
+        <div class="rounded-2xl max-w-2xl p-6 shadow-lg mx-auto px-6 text-center">
+            <p class="max-w-2xl mb-4">Blue Moon Cafe berlokasi di Bangkalan, Jawa Timur. Menyajikan kopi terbaik dan makanan lezat dengan suasana adem di bawah cahaya bulan biru.</p>
+            <p>Alamat: Jl. Raya Telang No. 101, Bangkalan</p>
+            <p>Telepon: (021) 1234-5678</p>
+            <p>Instagram: @rb.ujee</p>
+            <p>Email: rb.ujee4@email.com</p>
+            <p>Jam Buka: 10:00 - 23:00 WIB</p>
+        </div>
+    </section>
+
+
+    <section id="promo" class="scroll-mt-60 text-center">
+        <h2 class="text-white text-5xl font-bold drop-shadow-lg mb-10 mt-50">Promo Spesial <span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon Cafe </span></h2>
+        <p class="text-lg p-6 mb-4">Nikmati promo menarik di Blue Moon Cafe! Dapatkan diskon 20% untuk setiap pemesanan di atas Rp100.000!</p>
+        <a href="#order" class="px-8 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">Pesan Sekarang</a>
+    </section>
+
+
+    <section id="menu" class="scroll-mt-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-white text-center text-5xl font-bold drop-shadow-lg mb-10 mt-50">Menu <span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon Cafe </span></h2>
+    
+            <!-- Makanan -->
+            <h3 class="text-2xl text-center font-bold mt-15 mb-6">Makanan</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-900 p-6 rounded-2xl text-center shadow hover:scale-105 transition-transform">
+                    <img src="makanan (1).png" alt="" class="mx-auto mb-4 h-40 object-cover">
+                    <h4 class="text-xl font-bold mb-2">Mie Ayam <span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon </span></h4>
+                    <p class="text-gray-600 mb-2">Sentuhan mie lembut dan ayam gurih</p>
+                    <span class="font-bold text-blue-500">Rp28.000</span>
+                </div>
+    
+                <div class="bg-gray-900 p-6 rounded-2xl text-center shadow hover:scale-105 transition">
+                    <img src="makanan (2).png" alt="" class="mx-auto mb-4 h-40 object-cover">
+                    <h4 class="text-xl font-bold mb-2">Bakso <span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon </span></h4>
+                    <p class="text-gray-600 mb-2">Bakso daging urat melimpah</p>
+                    <span class="font-bold text-blue-500">Rp32.000</span>
+                </div>
+    
+                <div class="bg-gray-900 p-6 rounded-2xl text-center shadow hover:scale-105 transition">
+                    <img src="makanan (3).png" alt="" class="mx-auto mb-4 h-40 object-cover">
+                    <h4 class="text-xl font-bold mb-2">Kentang <span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon </span></h4>
+                    <p class="text-gray-600 mb-2">Sensasi hangat dan lembut dari kentang</p>
+                    <span class="font-bold text-blue-500">Rp26.000</span>
+                </div>
+            </div>
+
+
+            <h3 class="text-2xl text-center font-bold mt-15 mb-6">Minuman</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-900 p-6 rounded-2xl text-center shadow hover:scale-105 transition">
+                    <img src="minum 3.png" alt="" class="mx-auto mb-4 h-40 object-cover">
+                    <h4 class="text-xl font-bold mb-2">Coklat Breeze <span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon </span></h4>
+                    <p class="text-gray-600 mb-2">Segarnya coklat dan susu</p>
+                    <span class="font-bold text-blue-500">Rp26.000</span>
+                </div>
+    
+                <div class="bg-gray-900 p-6 rounded-2xl text-center shadow hover:scale-105 transition">
+                    <img src="minum 2.png" alt="" class="mx-auto mb-4 h-40 object-cover">
+                    <h4 class="text-xl font-bold mb-2">Soda <span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon </span></h4>
+                    <p class="text-gray-600 mb-2">Rasakan sensasi segar soda</p>
+                    <span class="font-bold text-blue-500">Rp32.000</span>
+                </div>
+    
+                <div class="bg-gray-900 p-6 rounded-2xl text-center shadow hover:scale-105 transition">
+                    <img src="minum 1.png" alt="" class="mx-auto mb-4 h-40 object-cover">
+                    <h4 class="text-xl font-bold mb-2">Coffee Late <span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon </span></h4>
+                    <p class="text-gray-600 mb-2">Kopi yang membuatmu melihat moon</p>
+                    <span class="font-bold text-blue-500">Rp26.000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="order" class="scroll-mt-40 text-center">
+        <h2 class="text-3xl p-6 font-bold mb-6">Pesan Sekarang</h2>
+        <a href="https://wa.me/6287766515781" class="px-8 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">Pesan via WhatsApp</a>
+    </section>
+
+
+    <section id="testimoni" class="scroll-mt-35">
+        <div class="px-6 text-center">
+            <h2 class="text-white text-center text-5xl font-bold drop-shadow-lg mb-10 mt-50 ">Testimoni Pelanggan <br><span class="font-bold bg-gradient-to-r from-sky-400 to-sky-100 bg-clip-text text-transparent"> Blue Moon Cafe </span></h2>
+            <div class="flex justify-center space-x-6">
+                <div class="bg-gray-900 p-6 rounded-2xl shadow-lg max-w-xs">
+                    <p class="mb-4">"Kopi di Blue Moon Cafe luar biasa!!! Suasananya sangat adem dan pelayanan yang ramah membuat saya betah berlama-lama di sini." - Sekar</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-2xl shadow-lg max-w-xs">
+                    <p class="mb-4">"Mie Ayam Blue Moon menjadi favorit saya. Rasa bumbunya pas, dan porsi yang cukup banyak untuk seorang mahasiswa!!" - Jefri</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg shadow-lg max-w-xs">
+                    <p class="mb-4">"Minuman seperti Coffee Late Moon sangat menggugah selera bangett. Pasti bakal kembali lagi!" - Bassam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+      <!-- Footer -->
+      <footer class="text-white mt-25 py-6">
+        <div class="text-center text-sm">&copy; 2025 Blue Moon Cafe | by rb.ujee</div>
+      </footer>
+</body>
+</html>
